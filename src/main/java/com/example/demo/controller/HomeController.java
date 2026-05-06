@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String home() {
-        return "Version 2 deployed!";
+        return "Version 2 deployed! i am exploring the azure ci cd pipeline";
     }
 }
